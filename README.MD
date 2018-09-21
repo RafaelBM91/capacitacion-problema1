@@ -3,6 +3,7 @@ Capacitación: Git, bash y docker
 Integrantes:
 - Rafael Briceño
 - Victor Celi
+- Steven Ortiz (Scrum Master)
 
 1. ¿Qué es y para qué sirve GIT?
 	Git es una herramienta de control de versiones. Su utiidad es muy amplia
