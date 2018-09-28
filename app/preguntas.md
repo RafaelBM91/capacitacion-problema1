@@ -153,4 +153,16 @@ git branch: con este comando podemos trabajar las ramas, tal como ver en que ram
 8. ¿Cómo se comenta una linea de código en Dockerfile?
 	- se comenta usando el numeral `# Este es un comentario`
 
+## Preguntas:
 
+1. ¿Qué es NGINX?
+	- Esta es una aplicacion para crear servidores.
+
+2. ¿Cómo expongo puertos en docker?
+	- empleando el flag -p e indicando el puerto del host junto al puerto del contenedor "1080:80".
+
+3. ¿Cómo especifico los puertos al levantar un contenedor (docker run)?
+	- `docker run -d -p "1080:80" rafaelbm9126/orbis-training-docker:1.0.0`
+
+4. ¿Cómo hago 'forward' al levantar un contenedor (docker run)?
+	- `-p "1080:80"` el 1080 es el puerto host y el 80 es el puerto del contenedor
