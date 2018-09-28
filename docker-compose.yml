@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  orbis-training-project:
+    image: rafaelbm9126/orbis-training-docker:1.0.0
+    ports:
+       - "1080:80"

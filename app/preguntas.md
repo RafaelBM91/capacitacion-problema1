@@ -126,3 +126,31 @@ git branch: con este comando podemos trabajar las ramas, tal como ver en que ram
 ## Comando para ejecutar el contenedor
 
 `docker run -it rafaelbm9126/orbis-training-docker:0.2.0`
+
+1. ¿Cuál es la diferencia entre una imagen y un contenedor?
+	- La imagen es el repositorio donde se guardan las caracteristicas de la aplicacion, y el contenedor es la representación en ejecucion de la imagen.
+
+2. ¿Cómo listo las imágenes que hay en mi computadora?
+	- `$ docker images`
+
+3. ¿Cómo salgo de un contenedor de docker?
+	- `# exit`
+
+4. ¿Se elimina el contenedor al salir de ella?
+	- Depende del caso por que si esta corriendo como un servicio el contenedor continuaria ejecutandoce.
+
+5. ¿Cómo elimino un contenedor?
+	- `docker rm <ID>`
+
+6. ¿Para qué es necesario el flag `-i`, `-t`, `--rm`?
+	- `-it` ejecuta el contenedor de modo interactivo.
+	- `-t` activa el modo consola.
+	- `--rm` remueve el contenedor si es que existe.
+
+7. ¿Cómo verifico que el archivo creado se encuentra en la imagen?
+	- Se puede verificar usando el modo interactivo al ejecutar el contenedor y usando el comando `# ls <DIR>` o el comando bash y ver la terminal de nuestro contenedor.
+
+8. ¿Cómo se comenta una linea de código en Dockerfile?
+	- se comenta usando el numeral `# Este es un comentario`
+
+
