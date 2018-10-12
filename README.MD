@@ -19,3 +19,6 @@
 
     #paso 10
         docker run -p "1042:3030" -p "35729:35729" -v $PWD/:/app -w /app rafaelbm9126/orbis-training-docker:2.0.0 npm run release
+
+    #paso 9 - 1
+        docker run --network=orbistrainingproject_default node:10.10.0-slim curl http://orbistrainingproject_orbis-training-project_1:3030

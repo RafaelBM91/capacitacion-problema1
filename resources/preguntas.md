@@ -165,4 +165,29 @@ git branch: con este comando podemos trabajar las ramas, tal como ver en que ram
 	- `docker run -d -p "1080:80" rafaelbm9126/orbis-training-docker:1.0.0`
 
 4. ¿Cómo hago 'forward' al levantar un contenedor (docker run)?
-	- `-p "1080:80"` el 1080 es el puerto host y el 80 es el puerto del contenedor
+	- `-p "1080:80"` el 1080 es el puerto host y el 80 es el puerto del 
+	
+# Preguntas Docker 2
+	1. ¿Es necesario especificar el `workdir` en docker?, ¿Porqué?
+		Si, ya que el comando `cd` esta desabilitado y para ejecutar cualquier comando dentro de nuestro volumen sera necesario ubicarse en la carpeta con el proyecto.
+	2. ¿Que hacen los siguientes comandos? 
+		-`docker ps`: Este comando lista los contenedores que estan corriendo.
+		-`docker pull`: Este comando actualiza o descarga la imagen requerida del registri.
+		-`docker push`: Este comando sube una imagen o los cambios con su nueva version al registri.
+		-`docker rm`: Este comando elimina el contenedor indicado.
+		-`docker rmi`: Este comando elimina la imagen indicada.
+		-`docker run`: Este comando ejecuta el contenedor.
+		-`docker tag`: Este comando crea un tag o un nuevo versionado de la imagen
+		-`docker search`: Este comando busca en la lista de imagenes una caracteristica indicada.
+		-`docker login`: Este comando permite loguearse para utilizar la cuenta de hub.docker.
+		-`docker exec`: Este comando permite ejecutar una instruccion `bash` en un contenedor que este corriendo.
+		-`docker build`: Este comando permite construir una imagen a partir del DockerFile.
+		-`docker inspect`: Este comando realiza una inspeccion a la red del contenedor.
+		-`docker network`: Este comando crea una red virtual para enlazar con otros contenedores.
+
+
+	1. ¿Qué es bash? ¿Qué significa? - 
+	2. ¿Cómo ejecuto un archivo bash?
+	3. ¿Qué pasa si no especifico en un `.sh`, la linea `#!/bin/bash`?
+	4. ¿Se puede cambiar el modo bash (`/bin/bash`) a otro tipo de ejecución?
+	5. ¿Cómo se envía variables de entorno por Docker CLI y docker-compose?
