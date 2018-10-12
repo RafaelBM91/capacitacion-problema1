@@ -186,8 +186,17 @@ git branch: con este comando podemos trabajar las ramas, tal como ver en que ram
 		-`docker network`: Este comando crea una red virtual para enlazar con otros contenedores.
 
 
-	1. ¿Qué es bash? ¿Qué significa? - 
-	2. ¿Cómo ejecuto un archivo bash?
-	3. ¿Qué pasa si no especifico en un `.sh`, la linea `#!/bin/bash`?
-	4. ¿Se puede cambiar el modo bash (`/bin/bash`) a otro tipo de ejecución?
-	5. ¿Cómo se envía variables de entorno por Docker CLI y docker-compose?
+	1. ¿Qué es bash? ¿Qué significa? - (Bourne-again shell) es un programa informatico que interpreta ordenes y lenguaje de consola.
+
+	2. ¿Cómo ejecuto un archivo bash? - Los archivos o codigo (inline) bash se ejecutan en la consola o terminal.
+	
+	3. ¿Qué pasa si no especifico en un `.sh`, la linea `#!/bin/bash`? - Muestra un error de formato al momento de ejecutar.
+	
+	4. ¿Se puede cambiar el modo bash (`/bin/bash`) a otro tipo de ejecución? - Si, encuanto se haga el set al programa.
+	
+	5. ¿Cómo se envía variables de entorno por Docker CLI y docker-compose? - Por cli se emplea el flag `-e` y dentro de un string se pasan las variables. Composer se coloca el atributo `envirement`.
+
+	
+	1. ¿Para qué sirve el archivo `Makefile`? - Sirve para agrupar diferentes tareas en simples targets.
+	
+	2. ¿Qué es un `target` en `Makefile`? - Es una etiqueta que nos permite ejecutar uno o una serie de comando.
