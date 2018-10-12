@@ -14,3 +14,8 @@
 
         docker run -p "3030:3030" -p "35729:35729" -v $PWD/:/app -w /app rafaelbm9126/orbis-training-docker:2.0.0 npm start
 
+    # nuevo puerto
+        docker run -p "1042:3030" -p "35729:35729" -v $PWD/:/app -w /app rafaelbm9126/orbis-training-docker:2.0.0 npm start
+
+    #paso 10
+        docker run -p "1042:3030" -p "35729:35729" -v $PWD/:/app -w /app rafaelbm9126/orbis-training-docker:2.0.0 npm run release
