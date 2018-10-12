@@ -6,3 +6,11 @@
 
 # uso de gninx
     - docker run -d -p "1080:80" rafaelbm9126/orbis-training-docker:1.0.0
+
+# Capacitacion Docker 2
+
+    # paso 5
+        docker run -v $PWD/:/app -w /app rafaelbm9126/orbis-training-docker:2.0.0 npm install && ls
+
+        docker run -p "3030:3030" -p "35729:35729" -v $PWD/:/app -w /app rafaelbm9126/orbis-training-docker:2.0.0 npm start
+
